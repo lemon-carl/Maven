@@ -14,6 +14,7 @@ import org.junit.Test;
  */
 public class MakeFriendTest {
  
+	  @SuppressWarnings("deprecation")
 	  @Test
 	  public void testMakeFriend() {
 		   MakeFriend makeFriend = new MakeFriend();
