@@ -20,11 +20,15 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
+			<scope>test</scope>
 		</dependency>		
 		
 		<dependency>
 			<groupId>com.hr.maven</groupId>
 			<artifactId>Hello</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<type>jar</type>
+			<scope>compile</scope>
 		</dependency>	
 	</dependencies>
    
