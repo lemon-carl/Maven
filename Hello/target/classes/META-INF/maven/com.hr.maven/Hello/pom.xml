@@ -18,37 +18,24 @@
     </parent>
 
     <dependencies>
-		    <dependency>
-				<groupId>junit</groupId>
-				<artifactId>junit</artifactId>
-				<scope>test</scope>
-			</dependency>	
-	</dependencies>
-    
-    
-    
-   <!-- <dependencies>
-        <dependency>
-             <groupId>junit</groupId>
-             <artifactId>junit</artifactId>
-             <version>4.12</version>
-             <scope>test</scope>
-        </dependency>
-
-    <dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>1.2.9</version>
-			<scope>compile</scope>
-	</dependency>
-     
-
-        <dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<!-- 依赖的传递性 -->
+		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
 			<version>4.0.0.RELEASE</version>
+			<scope>compile</scope>
 		</dependency>
-
-    </dependencies>
--->
+		
+		<!-- <dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency> -->
+</dependencies>
+    
 </project>
