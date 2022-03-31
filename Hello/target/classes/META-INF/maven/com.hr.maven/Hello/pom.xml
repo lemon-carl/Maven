@@ -8,7 +8,7 @@
     
     <!-- 统一声明版本号 -->
     <properties>
-		<hr.spring.version>4.1.17.RELEASE</hr.spring.version>
+		<hr.spring.version>5.3.18</hr.spring.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
     
